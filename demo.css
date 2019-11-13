@@ -1,0 +1,101 @@
+ul,li{
+    padding: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 750px;
+    min-width: 360px;
+    text-align: center;
+}
+.top{
+    height: 140px;
+}
+.top img{
+    width: 100%;
+}
+.rk{
+    height:190px ;
+    color:#8c4429;
+    font-size:1.5rem;
+}
+.xuanzhuan{
+    background: url(imgs/download-31.jpg);
+    height: 500px;
+}
+.anli{
+    background: url("imgs/download-28.jpg");
+    color: #fff;
+}
+.anli-pic img{
+    width: 90%;
+    height: 90%;
+}
+
+.anli-o{
+    width: 100px;
+    height: 50px;
+    border: 1px solod grey;
+}
+.tim{
+    background: url("imgs/download-31.jpg");
+}
+.tim img{width: 100%;}
+.tim div:first-child{
+    padding:20px 0 20px  ;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.kehu{
+    background: url("imgs/download-28.jpg");
+    color: #fff;
+}
+.kehu-img img{
+    margin-top:20px ;
+    width: 100%;
+}
+.xian{
+    margin: 30px 0;
+    background: url("imgs/download-9.png") no-repeat 264px;
+    color: #fff;
+}
+.anli-o{
+    padding:0 10px;
+    border: 1px solid #fff;
+    line-height: 3rem;
+    margin: 20px auto;
+}
+.lianxi>div{
+    float: left;
+    width: 50%;
+}
+.lianxi{
+    float: left;
+    background: grey;
+    width: 40%;
+    height:50% ;
+    margin:20px 0px 20px 25px;
+    border-radius: 3px;
+}
+.lianxi p,.lianxi h4{
+    text-align: left;
+    margin-top: 15px;
+}
+.lianxi img{
+    margin-top:30px;
+}
+.lx{
+    background: url("imgs/download-29.jpg");
+}
+.sb{
+    color: #fff;
+    margin: 30px auto;
+}
+.lianxi-img img{
+    width: 100%;
+}
+iframe{
+    overflow: hidden;
+}

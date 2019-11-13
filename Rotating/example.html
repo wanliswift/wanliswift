@@ -1,0 +1,68 @@
+
+<link rel="stylesheet" href="rotating-slider.css">
+<style>
+
+.rotating-slider ul.slides li { background: url('imgs/download-31.jpg');}
+
+.rotating-slider ul.slides li:nth-of-type(1) { background: url('../imgs/download-22.jpg');background-position: center;background-size: contain; }
+
+.rotating-slider ul.slides li:nth-of-type(2) { background: url('../imgs/download-22.jpg');background-position: center;background-size: contain;  }
+
+.rotating-slider ul.slides li:nth-of-type(3) { background: url('../imgs/download-22.jpg'); background-position: center;background-size: contain; }
+
+.rotating-slider ul.slides li:nth-of-type(4) { background: url('../imgs/download-22.jpg');background-position: center;background-size: contain;  }
+
+.rotating-slider ul.slides li:nth-of-type(5) { background: url('../imgs/download-22.jpg');background-position: center;background-size: contain; }
+
+.rotating-slider ul.slides li:nth-of-type(6) { background: url('../imgs/download-22.jpg');background-position: center;background-size: contain;  }
+
+.rotating-slider ul.slides li .inner {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+
+}
+</style>
+</head>
+<body >
+
+
+<div class="rotating-slider ">
+  <ul class="slides ">
+    <li>
+      <div class="inner">
+      </div>
+    </li>
+    <li>
+      <div class="inner"></div>
+    </li>
+    <li>
+      <div class="inner">
+      </div>
+    </li>
+    <li>
+      <div class="inner"> </div>
+    </li>
+    <li>
+      <div class="inner">
+      </div>
+    </li>
+    <li>
+      <div class="inner">
+      </div>
+    </li>
+  </ul>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+<script src="jquery.rotating-slider.js"></script> 
+<script>
+$(function(){ 
+    $('.rotating-slider').rotatingSlider({
+		slideHeight : Math.min(360, window.innerWidth -80),
+		slideWidth : Math.min(480, window.innerWidth - 80),
+	});
+});
+
+  
+
+</script>
